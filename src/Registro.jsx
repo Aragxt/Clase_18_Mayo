@@ -1,5 +1,9 @@
 import React from 'react'
 
+function mensaje(){
+  alert('Correo')
+}
+
 export  function Registro() {
   return (
     
@@ -15,7 +19,7 @@ export  function Registro() {
               <input type="text" class="form-control form-control-sm" placeholder="Your email"
                 aria-label="Your email" aria-describedby="basic-addon2"/>
               <div class="input-group-append">
-                <button class="btn btn-sm btn-outline-white my-0" type="button">Sign up</button>
+                <button class="btn btn-sm btn-outline-white my-0" type="button" onChange={mensaje()}>Sign up</button>
               </div>
             </form>
     
