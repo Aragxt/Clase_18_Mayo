@@ -1,13 +1,12 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {Alerta} from './Alerta';
 
-
-import {navbarfooter} from './navbarfooter';
 
 export function Aplicacion(){
     return(
         <React.Fragment>
-            <Formulario/>
-            <Tabla/>
+            <Alerta/>
         </React.Fragment>
     )
 }
