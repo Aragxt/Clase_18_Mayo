@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import {Formulario} from './Formulario';
+
 import { Barr } from './Barr';
 import { Alerta } from './Alerta';
 import { Piepag } from './Piepag';
