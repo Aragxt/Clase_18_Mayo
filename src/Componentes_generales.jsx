@@ -6,6 +6,7 @@ import { Barr } from './Barr';
 import { Alerta } from './Alerta';
 import { Piepag } from './Piepag';
 import {Registro} from './Registro';
+
 export function Aplicacion(){
     return(
         <React.Fragment>
@@ -17,9 +18,10 @@ export function Aplicacion(){
             <Alerta/>
             <Alerta/>
             <Alerta/>
+            <Alerta/>
+            <Alerta/>
             <Registro/>
             <Piepag/>
-
         </React.Fragment>
     )
 }

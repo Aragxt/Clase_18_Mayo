@@ -1,7 +1,5 @@
 import React from 'react';
 
-
-
 export function Barr() {
    return (
     <nav class="navbar navbar-expand-lg bg-ligh" >
