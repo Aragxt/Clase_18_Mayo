@@ -1,4 +1,6 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import {Tabla} from './Tabla';
 
 
 import {navbarfooter} from './navbarfooter';
@@ -6,7 +8,7 @@ import {navbarfooter} from './navbarfooter';
 export function Aplicacion(){
     return(
         <React.Fragment>
-            <Formulario/>
+            <navbarfooter/>
             <Tabla/>
         </React.Fragment>
     )
